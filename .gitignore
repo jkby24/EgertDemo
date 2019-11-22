@@ -1,13 +1,3 @@
-
-.idea/
-
-bin*/
-
+﻿
 .wing/
 
-.DS_Store
-
-# egret库目录
-libs/modules/
-# 自动生成的皮肤导出接口文件
-libs/exml.e.d.ts
