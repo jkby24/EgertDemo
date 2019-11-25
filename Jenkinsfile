@@ -1,13 +1,11 @@
-@Library ('egret_demo') _
-
+Jenkinsfile (Declarative Pipeline)
 pipeline {
-   agent any
-
-   stages {
-      stage('Hello') {
-         steps {
-            powershell 'egret build'
-         }
-      }
-   }
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                bat 'eget build'
+            }
+        }
+    }
 }
