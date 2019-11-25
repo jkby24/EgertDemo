@@ -1,11 +1,12 @@
-Jenkinsfile (Declarative Pipeline)
+Jenkinsfile ('egret_demo')
 pipeline {
-    agent { docker 'node:6.3' }
-    stages {
-        stage('build') {
-            steps {
-                sh 'egret build'
-            }
-        }
-    }
+   agent any
+
+   stages {
+      stage('Hello') {
+         steps {
+            powershell 'egret build'
+         }
+      }
+   }
 }
