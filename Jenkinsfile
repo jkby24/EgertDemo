@@ -1,4 +1,4 @@
-Jenkinsfile (Declarative Pipeline)
+@Library('egret demo') _
 pipeline {
     agent any
     stages {
