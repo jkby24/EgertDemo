@@ -1,4 +1,4 @@
-@Library('egret demo') _
+// @Library('egret demo') _
 pipeline {
     agent any
     stages {
