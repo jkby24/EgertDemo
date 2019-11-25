@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'eget build'
+                bat 'egret build'
             }
         }
     }
