@@ -1,4 +1,4 @@
-Jenkinsfile ('egret_demo')
+@Library ('egret_demo')
 pipeline {
    agent any
 
